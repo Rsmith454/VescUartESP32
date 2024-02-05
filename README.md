@@ -1,6 +1,6 @@
 # VescUart
 
-Arduino library for interfacing with a VESC over UART. This library is based upon the library written by RollingGecko (https://github.com/RollingGecko/VescUartControl). The library is updated for the newest VESC firmware (FW3.51) and cleaned up a bit. The library is not backwards compatible, so you have to upload the newest firmware to your VESC.
+Arduino library for interfacing with a VESC over UART. This library is based upon the library written by RollingGecko (https://github.com/RollingGecko/VescUartControl) and SolidGeek (https://github.com/SolidGeek/VescUart). The library is updated for the newest VESC firmware (FW6.02) and cleaned up a bit. The library is not backwards compatible, so you have to upload the newest firmware to your VESC.
 
 **Important:** This is not a dropin replacement for RollingGeckos library. You will have to make some changes to your software, as all functions and values is now within a class, see below.
 
